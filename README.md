@@ -7,3 +7,19 @@ The data analysis project aims to generate insights into the performance of an I
 
 ### Data Sources
 The Primary source of data used here is data sale.csv and this is an open source data that can be freely downloaded from an open source online such as kaggle or any other data repository site.
+
+### Tools Used
+- Microsoft Excel
+  
+  1. For Data Cleaning
+  2. Analysis
+  3. Data Visualization
+     
+- SQL -Structured Query Language for Querying of Data
+- Github for portfolio Building
+
+  ### Data Cleaning and Preparations
+  In the initial phase of data Cleaning and Preparation we perform the following action;
+  1. Data Loading and Inspection
+  2. Handling Missing Variables
+  3. Data Cleaning and Formatting
