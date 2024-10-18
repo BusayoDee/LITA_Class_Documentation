@@ -23,3 +23,19 @@ The Primary source of data used here is data sale.csv and this is an open source
   1. Data Loading and Inspection
   2. Handling Missing Variables
   3. Data Cleaning and Formatting
+
+  ### Exploratory Data Analysis
+  EDA involes exploring the Data to answer some questions about the Data such as;
+  -The overall sales trend
+  -Bestselling Products and Regions
+  -Bestselling markets and stores
+  -Leastselling Products and Regions
+
+  ### Data Analysis
+  This is where include some basic line of code or queries  during the analays
+
+  ```SQL
+  SELECT * FROM TABLE
+  WHERE CONDITION = TRUE
+  
+  
