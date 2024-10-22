@@ -39,4 +39,10 @@ The Primary source of data used here is data sale.csv and this is an open source
   WHERE CONDITION = TRUE
   ```
   ### Data Visualisation
+
+
+  ![bar chart](https://github.com/user-attachments/assets/11895f9b-32fc-4f97-9601-54d92035aee7)
+
+
+
   
