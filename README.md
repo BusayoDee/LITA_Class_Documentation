@@ -37,5 +37,6 @@ The Primary source of data used here is data sale.csv and this is an open source
   ```SQL
   SELECT * FROM TABLE
   WHERE CONDITION = TRUE
+  ```
   
   
