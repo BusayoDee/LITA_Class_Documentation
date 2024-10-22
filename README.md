@@ -38,5 +38,5 @@ The Primary source of data used here is data sale.csv and this is an open source
   SELECT * FROM TABLE
   WHERE CONDITION = TRUE
   ```
-  
+  ### Data Visualisation
   
