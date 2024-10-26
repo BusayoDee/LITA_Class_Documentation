@@ -4,7 +4,6 @@
 
 ###  Overview
 This project collects and analyzes sales data from various regions, markets and stores. The goal is to provide insights into the revenue, units sold and transaction categories over different periods. The analysis focuses on understanding revenue trends and sales performance across regions and calculating key metrics such as total revenue by region to determine which region is the top and least performer in terms of revenue.
----
 
 ### Data Collected
 The dataset includes the following key columns:
