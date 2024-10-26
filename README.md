@@ -41,8 +41,14 @@ This Project was designed to address the following analysis goals
 Average Revenue = Total Revenue / Unit Sold
 
   ```
-  ### Data Visualisation
+### Tools and Method Used
+#### Data Analysis
+The Data was analysed using microsoft Excel with the use of pivot tables  to organize and filter the data for easy interpretation, Bar charts and Column charts were created in excel to visually represents key insights
 
+
+  ### Data Visualisation and Inference
+### 1. REVENUE BY UNIT SOLD
+ 
 
   ![bar chart](https://github.com/user-attachments/assets/11895f9b-32fc-4f97-9601-54d92035aee7)
 
