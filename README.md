@@ -47,8 +47,12 @@ Average Revenue = Total Revenue / Unit Sold
   ![bar chart](https://github.com/user-attachments/assets/11895f9b-32fc-4f97-9601-54d92035aee7)
 
 
+
+
   
 ![regionby sum of unit sold](https://github.com/user-attachments/assets/dbf6e4df-946d-423e-90e4-27ab5b5393da)
+
+
 
 
 
