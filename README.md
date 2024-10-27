@@ -47,14 +47,14 @@ The Data was analysed using microsoft Excel with the use of pivot tables  to org
 
 
   ### Data Visualisation and Inference
-### 1. REVENUE BY UNIT SOLD
+### 1. REVENUE BY REGION
  
 
   ![bar chart](https://github.com/user-attachments/assets/11895f9b-32fc-4f97-9601-54d92035aee7)
 
 
 
-
+It can be infered that North East Region generated the highest Revenue closely followed by South West while North Central appears to be lagging behind in terms of revenue generation, it  therefore suggest that there is a challenge being faced in that region and the market condition and competitive analysis needs to be done to determine why North Central stores and Markets are not doing good numbers compared to other region
   
 ![regionby sum of unit sold](https://github.com/user-attachments/assets/dbf6e4df-946d-423e-90e4-27ab5b5393da)
 
