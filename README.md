@@ -66,9 +66,13 @@ It can be infered that North East Region generated the highest Revenue closely f
 
 
 
-### Project Title: Nigerian Brewries
-  
 
+
+
+### Project Title: Sales Analysis for International Brewries
+  
+###  Overview
+This project collects and analyzes sales data from various sales rep of the store intenationally. The goal is to provide insights into the revenue, units sold and transaction categories over different periods. The analysis focuses on understanding revenue trends and sales performance across regions and calculating key metrics such as total revenue by region to determine which region is the top and least performer in terms of revenue.
 
 
 
