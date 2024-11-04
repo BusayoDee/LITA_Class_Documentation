@@ -131,6 +131,7 @@ GROUP BY Sales_Rep order by 2 desc
 ### DATA VISUALIZATION 
 Bar charts and Column charts were created in excel to visually represent the key insights.
 1.	Profit by Region
+   
 ![intern1](https://github.com/user-attachments/assets/72906ba1-b3fd-4f26-bb7c-251b3c81eaf5)
 
 
@@ -140,12 +141,12 @@ Bar charts and Column charts were created in excel to visually represent the key
    ![Intern 2](https://github.com/user-attachments/assets/ed3f9496-684c-4a02-b5aa-47338219dee3)
 
    
-4.	Top Performing Sales Rep
+3.	Top Performing Sales Rep
 
    ![intern 3](https://github.com/user-attachments/assets/4c9f740d-31ad-4241-935d-17a62836f54f)
 
    
-6.	Total Profit by Brand
+4.	Total Profit by Brand
    
 ![Intern 4](https://github.com/user-attachments/assets/e0780b55-0b6c-4e1e-8c5c-b687e8209eef)
 
@@ -158,6 +159,7 @@ Bar charts and Column charts were created in excel to visually represent the key
 3.	It can be deduced that JONES is the Top perfoming Sales_Rep in terms of Sales and Profit generation while HOWARD is the least Performing Sales_Rep
 	
 4.	It can be concluded that CASTLE LITE tops the chart as the best selling Product Brand  as well as BUDWEISSER With a wide profit margin compared to the other brands
+
 
 
 ## PROJECT TILTLE: HR ATTRITION DATA ANALYSIS
@@ -220,7 +222,7 @@ Card Visuals, Bar charts, Pie charts, Doughnuts and slicers were used in the ana
 
 
 
-## PROJECT 4: CAPSTONE SALES REPORT
+## PROJECT 4: CAPSTONE STORE SALES REPORT
 
 ### Overview
 This project Analyzes the sales performance of a retail store. It explores Sales data to uncover key insights such as top-selling products, regional performance and monthly sales trends. The goal is to produce an interactive Power Bi dashboard that highlights these findings.
@@ -319,7 +321,8 @@ where year(OrderDate) = '2024'group by Datename(Month, OrderDate) order by Month
 ```
 
 6.	Top 5 Customer by total purchase amount:
-```select top 5 Customer_Id, sum(Revenue) As Total_Purchase from [dbo].[CapstoneSalesData] 
+```
+select top 5 Customer_Id, sum(Revenue) As Total_Purchase from [dbo].[CapstoneSalesData] 
 group by Customer_Id order by Total_Purchase desc
 ```
 7.	Percentage of total sales by region:
@@ -329,5 +332,13 @@ group by Customer_Id order by Total_Purchase desc
 
 
 
+### Data Visualization
+Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboard created to visualize key insights
+
+1. Total Sales by Product
 
 
+2. Total Sales by Region
+
+
+3. Total Revenue by Product
