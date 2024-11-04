@@ -442,11 +442,12 @@ This Project was designed to address the following analysis goals:
 =Total Subscription Duration / Total Number of Subscription Types
 ```
 
-3.	Most Popular Subscription Type: 
+2.	Most Popular Subscription Type: 
 
 Group data by subscription type by CustomerID and summarize values by Count, this shows the total number of subscribers for each subscription type.
 ```
-select top 1 SubscriptionType, count(customerID) AS Total_Customers from CapstoneCustomerData group by SubscriptionType order by Total_Customers desc
+select top 1 SubscriptionType, count(customerID) AS Total_Customers
+from CapstoneCustomerData group by SubscriptionType order by Total_Customers desc
 ```
 
 3.	Total number of customers in each region: 
