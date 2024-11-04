@@ -124,6 +124,23 @@ select Sales_Rep, sum(profit) AS Sales_Profits from InternationalBreweries
 GROUP BY Sales_Rep order by 2 desc
 ```
 
+### TOOLS AND METHODS USED
+1.	Data Analysis: The data was analyzed with Microsoft excel using pivot tables to organize and filter the data for easy interpretation.
+2.	SQL: SQL Query was as well used to query the database to get more insights into the data
+
+### DATA VISUALIZATION 
+Bar charts and Column charts were created in excel to visually represent the key insights.
+1.	Profit by Region
+   
+2.	Quantity Sold Per Region
+
+   
+3.	Top Performing Sales Rep
+   
+4.	Total Profit by Brand
+   
+
+
 
 
   
