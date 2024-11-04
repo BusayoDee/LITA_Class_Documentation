@@ -131,14 +131,23 @@ GROUP BY Sales_Rep order by 2 desc
 ### DATA VISUALIZATION 
 Bar charts and Column charts were created in excel to visually represent the key insights.
 1.	Profit by Region
+![intern1](https://github.com/user-attachments/assets/72906ba1-b3fd-4f26-bb7c-251b3c81eaf5)
+
+
    
 2.	Quantity Sold Per Region
 
+   ![Intern 2](https://github.com/user-attachments/assets/ed3f9496-684c-4a02-b5aa-47338219dee3)
+
    
-3.	Top Performing Sales Rep
+4.	Top Performing Sales Rep
+
+   ![intern 3](https://github.com/user-attachments/assets/4c9f740d-31ad-4241-935d-17a62836f54f)
+
    
-4.	Total Profit by Brand
+6.	Total Profit by Brand
    
+![Intern 4](https://github.com/user-attachments/assets/e0780b55-0b6c-4e1e-8c5c-b687e8209eef)
 
 
 
