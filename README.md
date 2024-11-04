@@ -349,4 +349,7 @@ Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboa
 
 ![sales 3](https://github.com/user-attachments/assets/753e0819-a513-48b9-adb0-2b6c2e86efbb)
 
-   
+4. Monthly Sales Totals for 2024
+
+
+5.Top 5 Customers
