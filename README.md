@@ -336,9 +336,17 @@ group by Customer_Id order by Total_Purchase desc
 Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboard created to visualize key insights
 
 1. Total Sales by Product
+   
+![sales1](https://github.com/user-attachments/assets/7afe6518-5d25-415b-be6f-0d3535f79e7f)
 
 
 2. Total Sales by Region
 
+![sales 2](https://github.com/user-attachments/assets/5112fa2c-df81-442b-a188-6f625f4f5aaf)
+
 
 3. Total Revenue by Product
+
+![sales 3](https://github.com/user-attachments/assets/753e0819-a513-48b9-adb0-2b6c2e86efbb)
+
+   
