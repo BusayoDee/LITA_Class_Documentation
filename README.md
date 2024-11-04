@@ -488,19 +488,33 @@ count(CASE WHEN Canceled = 1 THEN CustomerID END) AS Cancelled_Subscriptions fro
 
 Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboard created to visualize key insights
 1. Average Subscription Duration
+   
+![avesub](https://github.com/user-attachments/assets/1eba3b3c-2cc9-46a8-9d72-538c54cf251d)
 
 
 2.Most  popular Subscription type
 
+![most popular](https://github.com/user-attachments/assets/928102d7-b1b7-4919-92de-1655d6174361)
+
+
 3.Total Number of customers in each region
 
+![su custregion](https://github.com/user-attachments/assets/27f3ad87-256c-46fa-acce-3dfc8208f9a3)
+
+
 4. Total Revenue by Subscription Type
+   
+![revbysub](https://github.com/user-attachments/assets/ec769122-ad44-43d7-b330-b3a1fd0055f6)
 
-5. Number of Active and Canceled Subscriptions
+
+6. Number of Active and Canceled Subscriptions
+
+![su actican](https://github.com/user-attachments/assets/57621a85-573f-42a2-9a7e-0bb21a6cd14b)
 
 
 
-INFERENCE AND CONCLUSIONS
+
+### Inference and Conclusion
 1.	Basic is the most popular subscription type
 2.	The Average Subscription Duration is 365days which is 12 months
 3.	There is no Customer or Subscriber who cancelled their Subscription within 6months
