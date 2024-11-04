@@ -350,6 +350,177 @@ Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboa
 ![sales 3](https://github.com/user-attachments/assets/753e0819-a513-48b9-adb0-2b6c2e86efbb)
 
 4. Monthly Sales Totals for 2024
+   
+
+![s monthly sales totals](https://github.com/user-attachments/assets/3c51fd21-f257-4c89-b1bf-a54ef729d61f)
+
+5. Top 5 Customers by Purchase amount
+   
+![s top five cust](https://github.com/user-attachments/assets/9cf2564f-130f-4d10-aec8-10363f34d2dd)
+
+### Inference and Conclusion
+
+1.	It can be deduced that the highest selling products by total Sales Value is “Hat” closely followed by “Shoes” while “shirt” and “Gloves” have equal number of quantity sold or sales value.  concluded that a great percentage of the Stores customers are lovers of Hat or Shoes 
+2.	The Product that generates the most revenue is “Shoes” and the Products with the least revenue generated is Socks. It can be concluded that SHOE is the bestselling Product for Capstone Store.
+
+3.	In terms of Quantity of Product sold per Region, SOUTH REGION tops the chart, followed by EAST. This suggest there could be a challenge in sales perfomance in WEST and NORTH as the regions are not doing good numbers in terms of sales quantity
+   
+4.  It can be inferred that SOUTH Region brings in the highest percentage in terms of Revenue generation followed by EAST region with NORTH and WEST as well lagging in revenue generation
+   
+5.  The top five customers by the total purchase amount is CUS1488, CUS1375, CUS1023, CUS1059 AND CUS1367.
 
 
-5.Top 5 Customers
+### Recommendation
+1. Capstone  store can stock more of Products like Shoes and Hats as they are highly in demand
+2. These set of customers can be identified as the Capstone stores Premium Customers and can be given discount through a loyalty card , this will serve as an incentive for customer retention
+
+
+
+
+## PROJECT TITLE:CAPSTONE CUSTOMER SUBSCRIPTION REPORT
+
+### Overview: 
+This Project analyzes the customer data for a subscription service to identify segments and trends. The goal is to understand customer behavior, track subscription types, and identify key trends in cancellations and renewals.
+
+### Data Collected
+The dataset includes the following key columns:
+
+1.	CustomerID
+2.	CustomerName
+3.	Region
+4.	SubscriptionType
+5.	SubscriptionStart
+6.	SubscriptionEnd
+7.	Cancelled
+8.	Revenue
+
+### Key Metrics
+1.	SubscriptionDuration: This Column was created and calculated as SubscriptionEnd Minus SubscriptionStart(SubscriptionEnd- Subscription start)
+2.	Revenue: Sum of Total Revenue generated 
+3.	Average Subscription Duration: Calculated as Subscription type grouped by SubscriptionDuration summarized by Average 
+
+
+### Project Objectives
+This Project was designed to address the following analysis goals:
+1.	Average Subscription Duration: Determine the average Subscription duration
+2.	Most Popular Subscription Type: Evaluate the most popular subscription types by the number of customers
+3.	Total number of customers in each region: Retrieve the total number of customers from each Region
+4.	Customers who canceled their subscription duration within 6 months: Determine customers who canceled their subscription within 6 months
+5.	Customers with subscription longer than 12 months: Analyse Customers with subscription longer than 12 months
+6.	Total Revenue by Subscription type: Calculates total revenue by Subscription type
+7.	Top 3 Region by subscription cancellations: Determine the top 3 Region by subscription cancellations
+8.	Total number of active and canceled subscriptions
+
+### Tools and Methods Used
+1.	Data Analysis: The data was analyzed with Microsoft excel using pivot tables to organize and filter the data for easy interpretation.
+2.	SQL: SQL Query was as well used to query the database to get more insights into the data
+3.	PowerBi: To create a dashboard for visualization of the of key customer segment.
+
+### How to Use the Data
+1.	Average Subscription Duration:  Group data  by subscriptiontype  and subscription duration ( SubscriptionEnd -SubscriptionStart) and determine the Average, this points out the average subscription duration.
+
+2.	Most Popular Subscription Type: Group data by SubscriptionType   by the  total number of customers
+
+3.	Total number of customers in each region: Group data by the Region and the total number of customers, this indicates the total number of customers in each region
+
+4.	Customers who canceled their subscription duration within 6 months: With SQL Query, determine customers who canceled their subscription within 6 months, this identifies customers with canceled subscription within 6 months.
+
+
+5.	Customers with subscription longer than 12 months: With SQL Query, Analyse Customers with subscription duration longer than 12 months, this identifies customers with subscription above 12 months
+
+6.	Total Revenue by Subscription type:  Group data by Revenue and Subscription type, this calculates total revenue generated by each Subscription type.
+
+7.	Top 3 Region by subscription cancellations: Use SQL Query to Determine the top 3 Region by subscription cancellations.
+
+8.	Total number of active and canceled subscriptions: Use SQL Query to determine the Total number of Active and Canceled Subscription.
+
+
+### Formular / Query Used
+
+1.	Average Subscription Duration:
+```   
+=Total Subscription Duration / Total Number of Subscription Types
+```
+
+3.	Most Popular Subscription Type: 
+
+Group data by subscription type by CustomerID and summarize values by Count, this shows the total number of subscribers for each subscription type.
+```
+select top 1 SubscriptionType, count(customerID) AS Total_Customers from CapstoneCustomerData group by SubscriptionType order by Total_Customers desc
+```
+
+3.	Total number of customers in each region: 
+```
+select region, count(CustomerID) AS CustomerPerRegion from CapstoneCustomerData
+group by Region
+```
+4.	Customers who canceled their subscription duration within 6 months:
+```   
+select CustomerID from CapstoneCustomerData where datediff (month, SubscriptionStart, SubscriptionEnd)<= 6
+```
+
+5.	Customers with subscription longer than 12 months:
+```   
+SELECT CustomerID, CustomerName, SubscriptionStart, SubscriptionEnd, 
+datediff(month, SubscriptionStart, SubscriptionEnd) AS Suscription_Duration From [dbo].[CapstoneCustomerData] 
+where Canceled = '0' AND SubscriptionEnd IS NOT NULL AND Datediff(month, SubscriptionStart, SubscriptionEnd)> 12
+```
+6.	Total Revenue by Subscription type: 
+```
+Select  SubscriptionType AS Subscription_Type, Sum(Revenue) AS Total_Revenue 
+from CapstoneCustomerData group by SubscriptionType
+```
+
+7.	Top 3 Region by subscription cancellations: 
+```
+select top 3 Region, count(canceled) As Canceled_Subscriptions from [dbo].[CapstoneCustomerData] where canceled = 'True'
+group by Region
+```
+
+8.	Total number of active and canceled subscription:
+ ```  
+Select count(CASE WHEN Canceled = 0 THEN CustomerID END) AS Active_Subscriptions,
+count(CASE WHEN Canceled = 1 THEN CustomerID END) AS Cancelled_Subscriptions from CapstoneCustomerData
+```
+
+
+### Data Visualizations
+
+Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboard created to visualize key insights
+1. Average Subscription Duration
+
+
+2.Most  popular Subscription type
+
+3.Total Number of customers in each region
+
+4. Total Revenue by Subscription Type
+
+5. Number of Active and Canceled Subscriptions
+
+
+
+INFERENCE AND CONCLUSIONS
+1.	Basic is the most popular subscription type
+2.	The Average Subscription Duration is 365days which is 12 months
+3.	There is no Customer or Subscriber who cancelled their Subscription within 6months
+4.	There is no Customer or Subscriber whose subscriptions exceed 12months
+5.	South Region generates the highest form of Revenue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
