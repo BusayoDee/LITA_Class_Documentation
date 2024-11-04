@@ -69,7 +69,7 @@ It can be infered that North East Region generated the highest Revenue closely f
 
 
 
-### PROJECT TITLE: SALES REPORT FOR INTERNATIONAL BREWRIES
+## PROJECT TITLE: SALES REPORT FOR INTERNATIONAL BREWRIES
   
 ###  OVERVIEW
 This project collects and analyzes sales data from various sales rep of the store intenationally. The goal is to provide insights into the revenue, units sold and transaction categories over different periods. The analysis focuses on understanding revenue trends and sales performance across regions and calculating key metrics such as total revenue by region to determine which region is the top and least performer in terms of revenue.
@@ -80,13 +80,13 @@ The dataset includes the following key columns:
 2.	Sales Rep: The Name of the Sales Representative for each sale
 3.	Unit Price: Cost per unit of each brand
 4.	Brands: The name of the particular Product being sold
-5.	Quantity: The count of the sale made by each sales rep pe
+5.	Quantity: The count of the sale made by each sales rep 
 6.	Cost: The cost of each product
 7.	Profit: The Profit made on each sale after cost deduction
 8.	Country: The particular country that the sale was made
 9.	Region: The region where the sale was made
-10.	Month: The month the sale was made
-11.	Year: The year the sale was made
+10. Month: The month the sale was made
+11. Year: The year the sale was made
 
 ### PROJECT OBJECTIVES
 This Project was designed to address the following analysis goals
@@ -149,7 +149,54 @@ Bar charts and Column charts were created in excel to visually represent the key
    
 ![Intern 4](https://github.com/user-attachments/assets/e0780b55-0b6c-4e1e-8c5c-b687e8209eef)
 
+### INFERENCE AND CONCLUSION
+
+1.	It can be inferred that SOUTHSOUTH makes the most sales and generates the  most Profit and closely followed by WEST
+
+2.	It can be inferred that NORTHWEST makes the least sales and generates the  least Profit for the company
+   
+3.	It can be deduced that JONES is the Top perfoming Sales_Rep in terms of Sales and Profit generation while HOWARD is the least Performing Sales_Rep
+	
+4.	It can be concluded that CASTLE LITE tops the chart as the best selling Product Brand  as well as BUDWEISSER With a wide profit margin compared to the other brands
+
+
+## PROJECT TILTLE: HR ATTRITION DATA ANALYSIS
+
+### OVERVIEW
+This project collects and analyzes employee data from various departments in an organization. The goal is to provide insights into the number of employees, Total number of attritions, Total Number of Current Employee, the attrition Rate, Attrition count by department The analysis focuses on understanding the attrition rate of the staff in the organization by age band and department.
+
+### DATA COLLECTED
+The dataset includes the following key columns:
+1.	Attrition: This contains Values YES or No, to show staff who have left the organization and those who are still there
+2.	Age band: This contains different age brackets
+3.	Educational Field: This shows the discipline of each employee
+4.	Employee Number: This shows the staff number of each employee
+5.	Gender: This indicates the sex of each employee
+6.	Job role: This is the current job role of each employee
+7.	Marital Status: The marital status of each employee
+8.	Age: The Age of each employee
+9.	Monthly Income: This indicates the monthly income
+10. Work Life Balance: This shows different values indicating work life balance
+11. Years At Company: This is the total number of years each employee has stayed In the company
+12. Years in Current Role: This shows the number of years in current role
+13. Job Level: This shows the current Job level
+14. Job Satisfaction: This shows values to indicate job satisfaction metrics
+
+### PROJECT OBJECTIVES
+This Project was designed to address the following analysis goals
+1.	Attrition Count by Department: Determine the attrition count in each department
+2.	Attrition Count by Educational Field: Analyze the attrition based on educational field
+3	Attrition Count by Gender: Determine the attrition count based on gender
+4	Attrition Rate:Determine the rate of Attrition in the company
+
+### KEY METRICS
+1. ATTRITION COUNT:The Count of attrition YES OR NO
+2. ATTRITION RATE
 
 
 
-  
+
+
+
+
+
