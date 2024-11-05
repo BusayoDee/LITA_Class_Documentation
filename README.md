@@ -593,7 +593,7 @@ Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboa
 ![Sub1](https://github.com/user-attachments/assets/8a5a99ce-dc87-415d-96d2-a8a7f4584d98)
 
 
-- The total count of BASIC Subscribers is 37500 and it has more ACTIVE Subscribers than canceled
+- The total count of BASIC Subscribers is 37500 and it has a total 26,250 ACTIVE Subscription and 11,250 CANCELED Subscription
 
 
 
@@ -602,9 +602,9 @@ Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboa
 ![sub2](https://github.com/user-attachments/assets/fe34938e-70b5-4605-b602-fb6648f138ad)
 
 
--	The total count of PREMIUM Subscribers is 18750 and PREMIUM has 60% Canceled Subsciription.
+-	The total count of PREMIUM Subscribers is 18750 and PREMIUM has a total of 7,500 ACTIVE subscription and 11,250 CANCELED Subscription
 
--	Premium generates all the revenue for the South Region
+-	PREMIUM Subscription type generates all the revenue for the South Region
 
 
 
@@ -613,18 +613,18 @@ Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboa
 ![sub3](https://github.com/user-attachments/assets/4e4a363d-9b23-4f2d-9fa6-c9cf74f89866)
 
 
--	The total count of PREMIUM Subscribers is 18750 and STANDARD has 40% Active Subsciription
--	Standard  subscription generates all the revenue in the West
+-	The total count of STANDARD Subscribers is 18750 and STANDARD hasa tnotal of 7,500 ACTIVE Subscripion and 11,250 CANCELED Subscriptio
+-	STANDARD subscription type generates all the revenue in the West Region
 
 
 ### Inference and Conclusion
-- BASIC is the most popular subscription type and its generates more Revenue, followed by PREMIUM amd lastly STANDARD 
+- BASIC is the most popular subscription type and its generates more Revenue, followed by PREMIUM and lastly STANDARD 
   
 - The Average Subscription Duration is 365days which is 12 months and there is no Customer or Subscriber whose subscriptions exceed 12months
   
 - No Customer or Subscriber cancelled their Subscription within 6months  
   
-- SOUTH Region generates the highest form of Revenue and NORTH Region generates the least. 
+- SOUTH Region generates the highest form of Revenue a total of 37,560,782 and NORTH Region generates the least which is 37,368,890
 
 
 
