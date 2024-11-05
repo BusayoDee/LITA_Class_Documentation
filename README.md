@@ -583,6 +583,7 @@ Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboa
 
 ![su actican](https://github.com/user-attachments/assets/57621a85-573f-42a2-9a7e-0bb21a6cd14b)
 
+
 ![capscust](https://github.com/user-attachments/assets/c94ca24d-3988-406d-82c9-1a8abbf3f7c2)
 
 
@@ -613,7 +614,7 @@ Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboa
 ![sub3](https://github.com/user-attachments/assets/4e4a363d-9b23-4f2d-9fa6-c9cf74f89866)
 
 
--	The total count of STANDARD Subscribers is 18750 and STANDARD hasa tnotal of 7,500 ACTIVE Subscripion and 11,250 CANCELED Subscriptio
+-	The total count of STANDARD Subscribers is 18750 and STANDARD has a total of 7,500 ACTIVE Subscripion and 11,250 CANCELED Subscriptio
 -	STANDARD subscription type generates all the revenue in the West Region
 
 
