@@ -420,11 +420,12 @@ Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboa
 
 ### Inference and Conclusion
 
-- It can be deduced that the highest selling products by total Sales Value is “Hat” closely followed by SHOES while SHIRT and GLOVES have equal number of quantity sold or sales value. It can concluded that a great percentage of the Stores customers are lovers of Hat or Shoes
+- It can be deduced that the highest selling products by total Sales Value is HAT closely followed by SHOES while SHIRT and GLOVES have equal number of quantity sold or sales value. We can say that a great percentage of the Stores customers are lovers of Hat or Shoes
   
-- The Product that generates the most revenue is SHOE and the Product with the least revenue generated is SOCKS. It can be concluded that SHOES is the bestselling Product for Capstone Store.
+- The Product that generates the most revenue is SHOE and the Product with the least revenue generated is SOCKS. It can be concluded that  is the Top performing Product for Capstone Store is SHOES
 
 - In terms of Quantity of Product sold per Region, SOUTH REGION tops the chart, followed by EAST. This suggest there could be a challenge in sales perfomance in WEST and NORTH as the regions are not doing good numbers in terms of sales quantity
+- 
 -  It can be inferred that SOUTH Region brings in the highest percentage in terms of Revenue generation followed by EAST region with NORTH and WEST as well lagging in revenue generation
    
 -  The top five customers by the total purchase amount is CUS1488, CUS1375, CUS1023, CUS1059 AND CUS1367.
@@ -576,14 +577,26 @@ Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboa
 ![su actican](https://github.com/user-attachments/assets/57621a85-573f-42a2-9a7e-0bb21a6cd14b)
 
 
+![capscust](https://github.com/user-attachments/assets/c94ca24d-3988-406d-82c9-1a8abbf3f7c2)
 
 
+### Filtered Chat by SubscriptionType
+
+#### BASIC
+
+
+#### PREMIUM
+
+
+##### STANDARD
 ### Inference and Conclusion
-1.	Basic is the most popular subscription type
-2.	The Average Subscription Duration is 365days which is 12 months
-3.	There is no Customer or Subscriber who cancelled their Subscription within 6months
-4.	There is no Customer or Subscriber whose subscriptions exceed 12months
-5.	South Region generates the highest form of Revenue
+- BASIC is the most popular subscription type and its generates more Revenue, followed by PREMIUM amd lastly STANDARD 
+  
+- The Average Subscription Duration is 365days which is 12 months and there is no Customer or Subscriber whose subscriptions exceed 12months
+  
+- No Customer or Subscriber cancelled their Subscription within 6months  
+  
+- SOUTH Region generates the highest form of Revenue and NORTH Region generates the least. 
 
 
 
