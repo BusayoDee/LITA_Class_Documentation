@@ -221,7 +221,7 @@ Card Visuals, Bar charts, Pie charts, Doughnuts and slicers were used in the ana
  4. The Average age of employee in the company is 37
  5. Based on the attrition count by gender, we have more males leaving the company than females
 
-#### Filtered chart byb Educational Field
+#### Filtered chart by Educational Field
 #### Human Resource
 
 ![hr2](https://github.com/user-attachments/assets/72d73f43-560d-4e33-8b6c-99d9a7ee1a25)
@@ -269,6 +269,8 @@ Card Visuals, Bar charts, Pie charts, Doughnuts and slicers were used in the ana
   
 - The Company can put together a survey that all Employees can highlight whatever issues being faced on the job so it can be addressed so the company will not keep loosing good hands to probably competitors.
   
+
+
 
 
 
@@ -411,6 +413,9 @@ Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboa
 5. Top 5 Customers by Purchase amount
    
 ![s top five cust](https://github.com/user-attachments/assets/9cf2564f-130f-4d10-aec8-10363f34d2dd)
+
+
+
 
 ### Inference and Conclusion
 
