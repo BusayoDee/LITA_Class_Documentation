@@ -584,11 +584,33 @@ Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboa
 
 #### BASIC
 
+![Sub1](https://github.com/user-attachments/assets/8a5a99ce-dc87-415d-96d2-a8a7f4584d98)
+
+
+- The total count of BASIC Subscribers is 37500 and it has more ACTIVE Subscribers than canceled
+
+
 
 #### PREMIUM
 
+![sub2](https://github.com/user-attachments/assets/fe34938e-70b5-4605-b602-fb6648f138ad)
+
+
+-	The total count of PREMIUM Subscribers is 18750 and PREMIUM has 60% Canceled Subsciription.
+
+-	Premium generates all the revenue for the South Region
+
+
 
 ##### STANDARD
+
+![sub3](https://github.com/user-attachments/assets/4e4a363d-9b23-4f2d-9fa6-c9cf74f89866)
+
+
+-	The total count of PREMIUM Subscribers is 18750 and STANDARD has 40% Active Subsciription
+-	Standard  subscription generates all the revenue in the West
+
+
 ### Inference and Conclusion
 - BASIC is the most popular subscription type and its generates more Revenue, followed by PREMIUM amd lastly STANDARD 
   
