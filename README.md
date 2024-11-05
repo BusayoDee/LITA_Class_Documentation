@@ -381,10 +381,7 @@ where year(OrderDate) = '2024'group by Datename(Month, OrderDate) order by Month
 select top 5 Customer_Id, sum(Revenue) As Total_Purchase from [dbo].[CapstoneSalesData] 
 group by Customer_Id order by Total_Purchase desc
 ```
-7.	Percentage of total sales by region:
 
-
-8.	Identify Products with No sales in the last Quarter:
 
 
 
@@ -416,22 +413,29 @@ Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboa
 
 
 
+![Capssalesrep](https://github.com/user-attachments/assets/1463fb5a-cf24-4c94-89f6-bf1d4a8f7d59)
+
+
+
 
 ### Inference and Conclusion
 
-1.	It can be deduced that the highest selling products by total Sales Value is “Hat” closely followed by “Shoes” while “shirt” and “Gloves” have equal number of quantity sold or sales value.  concluded that a great percentage of the Stores customers are lovers of Hat or Shoes 
-2.	The Product that generates the most revenue is “Shoes” and the Products with the least revenue generated is Socks. It can be concluded that SHOE is the bestselling Product for Capstone Store.
+- It can be deduced that the highest selling products by total Sales Value is “Hat” closely followed by SHOES while SHIRT and GLOVES have equal number of quantity sold or sales value. It can concluded that a great percentage of the Stores customers are lovers of Hat or Shoes
+  
+- The Product that generates the most revenue is SHOE and the Product with the least revenue generated is SOCKS. It can be concluded that SHOES is the bestselling Product for Capstone Store.
 
-3.	In terms of Quantity of Product sold per Region, SOUTH REGION tops the chart, followed by EAST. This suggest there could be a challenge in sales perfomance in WEST and NORTH as the regions are not doing good numbers in terms of sales quantity
+- In terms of Quantity of Product sold per Region, SOUTH REGION tops the chart, followed by EAST. This suggest there could be a challenge in sales perfomance in WEST and NORTH as the regions are not doing good numbers in terms of sales quantity
+-  It can be inferred that SOUTH Region brings in the highest percentage in terms of Revenue generation followed by EAST region with NORTH and WEST as well lagging in revenue generation
    
-4.  It can be inferred that SOUTH Region brings in the highest percentage in terms of Revenue generation followed by EAST region with NORTH and WEST as well lagging in revenue generation
-   
-5.  The top five customers by the total purchase amount is CUS1488, CUS1375, CUS1023, CUS1059 AND CUS1367.
+-  The top five customers by the total purchase amount is CUS1488, CUS1375, CUS1023, CUS1059 AND CUS1367.
 
 
 ### Recommendation
-1. Capstone  store can stock more of Products like Shoes and Hats as they are highly in demand
-2. These set of customers can be identified as the Capstone stores Premium Customers and can be given discount through a loyalty card , this will serve as an incentive for customer retention
+- Capstone  store can stock more of Products like Shoes and Hats as they are highly in demand.
+   
+- The Store needs to analyze market conditions and competition in North and West Regions, then  put strategies in place  to boost performance in those region, this is crucial for improved sales and Revenue across the regions
+  
+-  The Top customers of Capstone Store should be identified as  Premium customers and can be given a discount on their purchases for a given period through a loyalty card , this will serve as an incentive for customer retention
 
 
 
