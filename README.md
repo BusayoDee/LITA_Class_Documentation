@@ -1,6 +1,6 @@
 # LITA_ClASS_DOCUMENTATION
 
-### PROJECT TITLE:RETAIL STORE AND MARKET SALES REPORT
+## PROJECT TITLE:RETAIL STORE AND MARKET SALES REPORT
 
 ###  Overview
 This project collects and analyzes sales data from various regions, markets and stores. The goal is to provide insights into the revenue, units sold and transaction categories over different periods. The analysis focuses on understanding revenue trends and sales performance across regions and calculating key metrics such as total revenue by region to determine which region is the top and least performer in terms of revenue.
@@ -69,7 +69,9 @@ It can be infered that North East Region generated the highest Revenue closely f
 
 
 
-## PROJECT TITLE: SALES REPORT FOR INTERNATIONAL BREWRIES
+
+## PROJECT TITLE: SALES REPORT FOR INTERNATIONAL BREWERIES
+
   
 ###  Overview
 This project collects and analyzes sales data from various sales rep of the store intenationally. The goal is to provide insights into the revenue, units sold and transaction categories over different periods. The analysis focuses on understanding revenue trends and sales performance across regions and calculating key metrics such as total revenue by region to determine which region is the top and least performer in terms of revenue.
@@ -85,8 +87,10 @@ The dataset includes the following key columns:
 7.	Profit: The Profit made on each sale after cost deduction
 8.	Country: The particular country that the sale was made
 9.	Region: The region where the sale was made
-10. Month: The month the sale was made
-11. Year: The year the sale was made
+10.	Month: The month the sale was made
+11.	Year: The year the sale was made
+
+
 
 ### Project Objectives
 This Project was designed to address the following analysis goals
@@ -108,18 +112,21 @@ This Project was designed to address the following analysis goals
 
 ### Formula / Query Used
 1.	PROFIT BY REGION
-```
+```SQL
 select Region, sum(profit) as Region_Profit from InternationalBreweries
 group by Region order by 2 desc
 ```
+
 2.	QUANTITY SOLD PER REGION
-```
+   
+```SQL
 select Region, sum(Quantity) as Region_Quantity from InternationalBreweries
 group by Region order by 2 desc
 ```
 
 3.	TOP PERFORMING SALES REP
-```
+   
+```SQL
 select Sales_Rep, sum(profit) AS Sales_Profits from InternationalBreweries 
 GROUP BY Sales_Rep order by 2 desc
 ```
@@ -152,13 +159,13 @@ Bar charts and Column charts were created in excel to visually represent the key
 
 ### INFERENCE AND CONCLUSION
 
-1.	It can be inferred that SOUTHSOUTH makes the most sales and generates the  most Profit and closely followed by WEST
+1.	It can be inferred that SOUTHSOUTH Region makes the most sales and generates the  most Profit and closely followed by WEST Region
 
-2.	It can be inferred that NORTHWEST makes the least sales and generates the  least Profit for the company
+2.	It can be inferred that NORTHWEST makes the least sales and generates the  least Profit for the company, this suggest a cahallenge in sales performance, this needs to be addressed by the company
    
 3.	It can be deduced that JONES is the Top perfoming Sales_Rep in terms of Sales and Profit generation while HOWARD is the least Performing Sales_Rep
 	
-4.	It can be concluded that CASTLE LITE tops the chart as the best selling Product Brand  as well as BUDWEISSER With a wide profit margin compared to the other brands
+4.	It can be concluded that CASTLE LITE tops the chart as the best selling Product Brand  with a profit of 34,606,980 as well as BUDWEISSER  31,568,500 this is a wide profit margin compared to the other product brands
 
 
 
@@ -215,11 +222,12 @@ Card Visuals, Bar charts, Pie charts, Doughnuts and slicers were used in the ana
 
 ### Inference
 
- 1. It can be deduced that a total number of 237 employee have left the company with the attrition rate to be 16%
- 2. The company currently has a total of 1233 employee
- 3. The department with the highest count of attrition is R &D while the department with the least is H
- 4. The Average age of employee in the company is 37
+ 1. It can be deduced that a total number of 237 Employee have left the company with the attrition rate to be 16%
+ 2. The company currently has a total of 1233 Employee
+ 3. The department with the highest count of attrition is R&D while the department with the least attrition count is HR
+ 4. The Average age of Employee in the company is 37
  5. Based on the attrition count by gender, we have more males leaving the company than females
+ 6. It can be infered that based on the current Employee the current age range with the highest staff is age band (35-44)years and next to that is (25-34)years 
 
 #### Filtered chart by Educational Field
 #### Human Resource
@@ -227,7 +235,7 @@ Card Visuals, Bar charts, Pie charts, Doughnuts and slicers were used in the ana
 ![hr2](https://github.com/user-attachments/assets/72d73f43-560d-4e33-8b6c-99d9a7ee1a25)
 
 
--	It Can be inferred that Employee in HUMAN RESOURCE field are currently 20 in the company and 7 have left.
+-	It Can be inferred that Employee in HUMAN RESOURCE field are currently 20 in the company and 7 have left with attrition rate of 26%
 
 
 #### Life Science
@@ -236,7 +244,7 @@ Card Visuals, Bar charts, Pie charts, Doughnuts and slicers were used in the ana
 
 
 
--	It can be inferred that the total number of Employees in R&D Field are currently 517 and 89 have left the company
+-	It can be inferred that the total number of Employees in R&D Field are currently 517 and 89 have left the company with attrition rate of 15%
 
 
 #### Marketing
@@ -244,7 +252,7 @@ Card Visuals, Bar charts, Pie charts, Doughnuts and slicers were used in the ana
 ![hr 4](https://github.com/user-attachments/assets/f37eec8a-d38a-4941-8426-0ba8b010c409)
 
 
--	It can be inferred that the total number of Employees in MARKETING field are currently 124 and 35 have left the company
+-	It can be inferred that the total number of Employees in MARKETING field are currently 124 and 35 have left the company with attrition rate of 22%
 
 
 #### Medical 
@@ -252,7 +260,7 @@ Card Visuals, Bar charts, Pie charts, Doughnuts and slicers were used in the ana
 ![hr5](https://github.com/user-attachments/assets/4b526d59-3c43-4424-8465-7f46ae0ec9df)
 
 
--	It can be inferred that the total number of Employees in MEDICAL field are currently 401 as 63 have left the company
+-	It can be inferred that the total number of Employees in MEDICAL field are currently 401 as 63 have left the company with attrition rate of 14%
 
 
 #### Techical
@@ -261,13 +269,15 @@ Card Visuals, Bar charts, Pie charts, Doughnuts and slicers were used in the ana
 ![hr6](https://github.com/user-attachments/assets/ece9c666-9466-43ea-a835-937b0ee9b4a0)
 
 
--	It can be inferred that the total number of Employees in TECHNICAL field are currently 100 and 32 have left the company
+-	It can be inferred that the total number of Employees in TECHNICAL field are currently 100 and 32 have left the company with attrition ratee of 24%
 
 
 ### Conclusion and Recommendations
 - R&D Department has the highest count of Attrition,this could be due to a lot of factors which could be salary related,  too much workload, job satisfaction or, work life balance, the company needs to take a look at this factors so as to reduce the attrition rate in R&D Department.
   
 - The Company can put together a survey that all Employees can highlight whatever issues being faced on the job so it can be addressed so the company will not keep loosing good hands to probably competitors.
+
+- The company has more Employees in their most productive years in the Company.
   
 
 
@@ -357,24 +367,24 @@ This Project was designed to address the following analysis goals:
 
 3.	Highest Selling Product:
    
-```
+```SQL
 Select Product,sum(Quantity) As SALES FROM CapstoneSalesData
 group by Product order by 2 desc
 ```
 4.	Total Revenue per Product:
-```
+```SQL
 select product,sum(Revenue) AS TotalRevenue from CapstoneSalesData 
 group by product order by 2 desc
 ```
 
 5.	Monthly Sales Totals for the current Year (2024):
-```
+```SQL
 Select Datename(Month, OrderDate) AS Sales_Month, Sum(Quantity) AS Monthly_Sales2024
 from CapstoneSalesData where year(OrderDate) = '2024'group by Datename(Month, OrderDate) order by Monthly_Sales2024 desc
 ```
 
 6.	Top 5 Customer by total purchase amount:
-```
+```SQL
 select top 5 Customer_Id, sum(Revenue) As Total_Purchase from [dbo].[CapstoneSalesData] 
 group by Customer_Id order by Total_Purchase desc
 ```
@@ -505,42 +515,42 @@ This Project was designed to address the following analysis goals:
 2.	Most Popular Subscription Type: 
 
 Group data by subscription type by CustomerID and summarize values by Count, this shows the total number of subscribers for each subscription type.
-```
+```SQL
 select top 1 SubscriptionType, count(customerID) AS Total_Customers
 from CapstoneCustomerData group by SubscriptionType order by Total_Customers desc
 ```
 
 3.	Total number of customers in each region: 
-```
+```SQL
 select region, count(CustomerID) AS CustomerPerRegion from CapstoneCustomerData
 group by Region
 ```
 4.	Customers who canceled their subscription duration within 6 months:
-```   
+``` SQL 
 select CustomerID from CapstoneCustomerData where datediff (month, SubscriptionStart, SubscriptionEnd)<= 6
 ```
 
 5.	Customers with subscription longer than 12 months:
-```   
+``` SQL 
 SELECT CustomerID, CustomerName, SubscriptionStart, SubscriptionEnd, 
 datediff(month, SubscriptionStart, SubscriptionEnd)
 AS Suscription_Duration From [dbo].[CapstoneCustomerData] 
 where Canceled = '0' AND SubscriptionEnd IS NOT NULL AND Datediff(month, SubscriptionStart, SubscriptionEnd)> 12
 ```
 6.	Total Revenue by Subscription type: 
-```
+```SQL
 Select  SubscriptionType AS Subscription_Type, Sum(Revenue) AS Total_Revenue 
 from CapstoneCustomerData group by SubscriptionType
 ```
 
 7.	Top 3 Region by subscription cancellations: 
-```
+```SQL
 select top 3 Region, count(canceled) As Canceled_Subscriptions from [dbo].[CapstoneCustomerData] where canceled = 'True'
 group by Region
 ```
 
 8.	Total number of active and canceled subscription:
- ```  
+ ``` SQL 
 Select count(CASE WHEN Canceled = 0 THEN CustomerID END) AS Active_Subscriptions,
 count(CASE WHEN Canceled = 1 THEN CustomerID END) AS Cancelled_Subscriptions from CapstoneCustomerData
 ```
