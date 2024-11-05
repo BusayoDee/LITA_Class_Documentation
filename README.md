@@ -275,9 +275,6 @@ Card Visuals, Bar charts, Pie charts, Doughnuts and slicers were used in the ana
 
 
 
-
-
-
 ## PROJECT 4: CAPSTONE STORE SALES REPORT
 
 ### Overview
@@ -372,8 +369,8 @@ group by product order by 2 desc
 
 5.	Monthly Sales Totals for the current Year (2024):
 ```
-Select Datename(Month, OrderDate) AS Sales_Month, Sum(Quantity) AS Monthly_Sales2024 from CapstoneSalesData
-where year(OrderDate) = '2024'group by Datename(Month, OrderDate) order by Monthly_Sales2024 desc
+Select Datename(Month, OrderDate) AS Sales_Month, Sum(Quantity) AS Monthly_Sales2024
+from CapstoneSalesData where year(OrderDate) = '2024'group by Datename(Month, OrderDate) order by Monthly_Sales2024 desc
 ```
 
 6.	Top 5 Customer by total purchase amount:
@@ -381,7 +378,6 @@ where year(OrderDate) = '2024'group by Datename(Month, OrderDate) order by Month
 select top 5 Customer_Id, sum(Revenue) As Total_Purchase from [dbo].[CapstoneSalesData] 
 group by Customer_Id order by Total_Purchase desc
 ```
-
 
 
 
@@ -425,13 +421,13 @@ Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboa
 - The Product that generates the most revenue is SHOE and the Product with the least revenue generated is SOCKS. It can be concluded that  is the Top performing Product for Capstone Store is SHOES
 
 - In terms of Quantity of Product sold per Region, SOUTH REGION tops the chart, followed by EAST. This suggest there could be a challenge in sales perfomance in WEST and NORTH as the regions are not doing good numbers in terms of sales quantity
-- 
+  
 -  It can be inferred that SOUTH Region brings in the highest percentage in terms of Revenue generation followed by EAST region with NORTH and WEST as well lagging in revenue generation
    
 -  The top five customers by the total purchase amount is CUS1488, CUS1375, CUS1023, CUS1059 AND CUS1367.
 
 
-### Recommendation
+### Recommendations
 - Capstone  store can stock more of Products like Shoes and Hats as they are highly in demand.
    
 - The Store needs to analyze market conditions and competition in North and West Regions, then  put strategies in place  to boost performance in those region, this is crucial for improved sales and Revenue across the regions
@@ -527,7 +523,8 @@ select CustomerID from CapstoneCustomerData where datediff (month, SubscriptionS
 5.	Customers with subscription longer than 12 months:
 ```   
 SELECT CustomerID, CustomerName, SubscriptionStart, SubscriptionEnd, 
-datediff(month, SubscriptionStart, SubscriptionEnd) AS Suscription_Duration From [dbo].[CapstoneCustomerData] 
+datediff(month, SubscriptionStart, SubscriptionEnd)
+AS Suscription_Duration From [dbo].[CapstoneCustomerData] 
 where Canceled = '0' AND SubscriptionEnd IS NOT NULL AND Datediff(month, SubscriptionStart, SubscriptionEnd)> 12
 ```
 6.	Total Revenue by Subscription type: 
@@ -575,7 +572,6 @@ Pivot tables, charts (bar, doughnuts,pie) were used as well as a powerbi dashboa
 6. Number of Active and Canceled Subscriptions
 
 ![su actican](https://github.com/user-attachments/assets/57621a85-573f-42a2-9a7e-0bb21a6cd14b)
-
 
 ![capscust](https://github.com/user-attachments/assets/c94ca24d-3988-406d-82c9-1a8abbf3f7c2)
 
